@@ -6,6 +6,12 @@ import transactions from './components/Transactions/transactions.json';
 import friends from './components/FriendList/friends.json';
 import statisticalData from './components/Statistics/statistical-data.json';
 import user from './components/Profile/user.json';
+// const styles = {
+//   display: 'flex',
+//   'justify-content': 'space-around',
+//   ' text-align': 'center',
+//   'padding-top': '10px',
+// };
 
 const App = () => {
   return (
