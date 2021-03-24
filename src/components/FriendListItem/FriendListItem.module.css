@@ -1,0 +1,47 @@
+.item {
+  display: flex;
+
+  margin-bottom: 5px;
+
+  height: 65px;
+  align-items: center;
+
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+.item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.status {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.statusOff {
+  composes: status;
+  background-color: red;
+}
+
+.statusOn {
+  composes: status;
+  background-color: green;
+}
+
+.avatar {
+  margin-left: 5px;
+
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  margin: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
